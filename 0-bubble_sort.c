@@ -23,7 +23,7 @@ void bubble_sort(int *array, size_t size)
 				tmp = array[x - 1];
 				array[x - 1] = array[x];
 				array[x] = tmp;
-				swap = 1;
+				swp = 1;
 				print_array(array, size);
 			}
 		}
