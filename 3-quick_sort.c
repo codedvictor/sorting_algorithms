@@ -1,7 +1,7 @@
 #include "sort.h"
 
 int lomuto_partition_scheme(int *a, int start, int end, size_t size);
-void _q_sort(int *a, int start, int end, size_t size);
+void _qsort(int *a, int start, int end, size_t size);
 
 /**
  * quick_sort - sorts array of integer using Quick sort algo
@@ -13,7 +13,7 @@ void _q_sort(int *a, int start, int end, size_t size);
 
 void quick_sort(int *array, size_t size)
 {
-	_q_sort(array, 0, size - 1, size);
+	_qsort(array, 0, size - 1, size);
 }
 
 /**
